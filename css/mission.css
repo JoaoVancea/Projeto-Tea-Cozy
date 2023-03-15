@@ -1,0 +1,23 @@
+.mission {
+    background-image: url("/imagens/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.mission__conteudo {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+.mission__conteudo h2 {
+    font-size: 36px;
+}
+.mission__conteudo__texto {
+    color: seashell;
+    font-size: 22px;
+}

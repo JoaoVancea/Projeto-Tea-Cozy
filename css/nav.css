@@ -1,0 +1,27 @@
+nav {
+    width: 100vw;
+    background: black;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+.logo {
+    height: 50px;
+    margin: 10px;
+}
+.links {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.links__lista {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+.links__lista__botoes {
+    color: seashell;
+    text-decoration: underline seashell;
+    font-size: 22px;
+}
