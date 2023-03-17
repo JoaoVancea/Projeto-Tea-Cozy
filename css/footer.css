@@ -1,0 +1,28 @@
+footer {
+    width: 100vw;
+    margin-top: 20px;
+}
+.contatos {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.contatos__texto {
+    height: 170px;
+    color: seashell;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 22px;
+    align-items: center;
+}
+.contatos__texto__titulo {
+    font-size: 30px;
+}
+.copyright {
+    color: seashell;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bolder;
+}

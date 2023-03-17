@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/mission.css">
     <link rel="stylesheet" href="css/teas.css">
+    <link rel="stylesheet" href="css/location.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header>
@@ -16,21 +18,21 @@
             <img src="imagens/img-tea-cozy-logo.png" alt="Tea Cozy Logo" class="logo">
             <div class="links">
                 <ul class="links__lista">
-                    <a href="#"><li class="links__lista__botoes">Mission</li></a>
-                    <a href="#"><li class="links__lista__botoes">Featured Tea</li></a>
-                    <a href="#"><li class="links__lista__botoes">Locations</li></a>
+                    <a href="#mission"><li class="links__lista__botoes">Mission</li></a>
+                    <a href="#teas"><li class="links__lista__botoes">Featured Tea</li></a>
+                    <a href="#location"><li class="links__lista__botoes">Locations</li></a>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <div class="mission">
+        <div class="mission" id="mission">
             <div class="mission__conteudo">
                 <h2 class="mission__conteudo__texto">Our Mission</h2>
                 <h4 class="mission__conteudo__texto">Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
             </div>
         </div>
-        <div class="teas">
+        <div class="teas" id="teas">
             <div class="teas__titulo">
                 <h2 class="teas__titulo__texto">Tea of the Month</h2>
                 <h4 class="teas__titulo__texto">What's Steeping at The Tea Cozy?</h4>
@@ -38,15 +40,15 @@
             <div class="teas__imagensETexto">
                 <div class="teas__imagensETexto__elemento">
                     <img src="imagens/img-berryblitz.jpg" alt="Fall Berry Blitz Tea" class="teas__imagensETexto__imagens">
-                    <p class="teas__imagensETexto__texto">Fall Berry Blitz Tea</p>
+                    <p class="teas__imagensETexto__texto" id="textosDeCima">Fall Berry Blitz Tea</p>
                 </div>
                 <div class="teas__imagensETexto__elemento">
                     <img src="imagens/img-spiced-rum.jpg" alt="Spiced Rum Tea" class="teas__imagensETexto__imagens">
-                    <p class="teas__imagensETexto__texto">Spiced Rum Tea</p>
+                    <p class="teas__imagensETexto__texto" id="textosDeCima">Spiced Rum Tea</p>
                 </div>
                 <div class="teas__imagensETexto__elemento">
                     <img src="imagens/img-donut.jpg" alt="Seasonal Donuts" class="teas__imagensETexto__imagens">
-                    <p class="teas__imagensETexto__texto">Seasonal Donuts</p>
+                    <p class="teas__imagensETexto__texto" id="textosDeCima">Seasonal Donuts</p>
                 </div>
                 <div class="teas__imagensETexto__elemento">
                     <img src="imagens/img-myrtle-ave.jpg" alt="Myrtle Ave Tea" class="teas__imagensETexto__imagens">
@@ -58,9 +60,43 @@
                 </div>
             </div>
         </div>
+        <div class="location" id="location">
+            <div class="location__titulo">
+                <h1>Locations</h1>
+            </div>
+            <div class="location__quadrados">
+                <div class="location__quadrados__quadrado">
+                    <h3 class="location__quadrados__quadrado__titulo">Downtown</h3>
+                    <h3>384 West 4th St</h3>
+                    <h3>Suite 108</h3>
+                    <h3>Portland, Maine</h3>
+                </div>
+                <div class="location__quadrados__quadrado">
+                    <h3 class="location__quadrados__quadrado__titulo">East Bayside</h3>
+                    <h3>3433 Phisherman's Avenue</h3>
+                    <h3>(Northwest Corner)</h3>
+                    <h3>Portland, Maine</h3>
+                </div>
+                <div class="location__quadrados__quadrado">
+                    <h3 class="location__quadrados__quadrado__titulo">Oakdale</h3>
+                    <h3>515 Crescent Avenue</h3>
+                    <h3>Second Floor</h3>
+                    <h3>Portland, Maine</h3>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-
+        <div class="contatos">
+            <div class="contatos__texto">
+                <h3 class="contatos__texto__titulo">The Tea Cozy</h3>
+                <h5>contact@theteacozy.com</h5>
+                <h5>917-555-8904</h5>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright The Tea Cozy 2017</p>
+        </div>
     </footer>
 </body>
 </html>
